@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import streamlit as st
 import pandas as pd
 from io import BytesIO
@@ -57,4 +56,4 @@ if files :
                       st.download_button("Download File", file_name=new_name, data=output, mime=mine)
 
                       st.success("Processing Complete!")
->>>>>>> dbac987451064b5166aca1be0db52d377dcfd957
+
